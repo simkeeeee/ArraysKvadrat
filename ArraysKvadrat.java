@@ -494,7 +494,13 @@ public class ArraysKvadrat {
 		else
 			return false;
 	}
-	
+/**	@params , int counter prešeteje število vrednosti, int vrednost preveri če ima določena koordinata enako vrednost
+  	@return, vrača ali je dosti pravilnih vrednosti
+	@since, 7
+	@author, Simon Jeraj G 3.A username simkeeeee
+	@version 1.0
+
+*/
 	boolean aliJihJeNvVrstici(int[][] a, int indeksX, int indeksY, int n, int vrednost){
            int counter=0;    
            for(int i=0;i<=a.length;i++){
