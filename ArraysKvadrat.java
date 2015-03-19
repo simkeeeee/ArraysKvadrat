@@ -494,6 +494,20 @@ public class ArraysKvadrat {
 		else
 			return false;
 	}
+	
+	boolean aliJihJeNvVrstici(int[][] a, int indeksX, int indeksY, int n, int vrednost){
+           int counter=0;    
+           for(int i=0;i<=a.length;i++){
+               if(vrednost==a[indeksX][i]){
+                   counter++;
+                }               
+           }                       
+              if(counter>=n){
+                  return true;
+              }else{
+                  return false;
+              }
+    }
 }
 
 
